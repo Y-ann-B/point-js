@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+}
+
+body{
+    background-color: beige;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #678d9c;
+    height: 4em;
+    margin-bottom: 3rem;
+    max-width: 100%;
+    min-width: fit-content;
+    
+}
+
+nav h1{
+    margin-left: 2rem;
+    color: #73211c;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+nav h1 span{
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+}
+
+nav ul li {
+    margin: 0 3rem;
+}
+
+nav .material-symbols-outlined {
+    margin-right: 2rem;
+    border-radius: 45px;
+}
+
+.carts {
+    max-width: 50%;
+    min-width: 500px;
+    margin: auto;
+    background-color: rgb(246, 246, 246);
+    box-shadow: 0px 5px 10px rgba(68, 68, 68, 0.53) ;
+}
+
+.items img {
+    width: 150px;
+    height: 150px;
+}
+
+.items figcaption {
+    display: flex;
+    flex-direction: row;
+    h3 {
+        margin-left: 1px;
+    }
+}
+ 
+.sub-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.material-symbols-outlined{
+    margin-left: 4px;
+}
+
+
+.sub-item .other-stuff{
+    display: flex;
+    align-items: center;
+}
+
+.sub-item .other-stuff .add{
+    border: 1px solid black;
+    margin-right: 4px;
+}
+
+.sub-item .other-stuff .remove{
+    border: 1px solid black;
+}
+
+.other-stuff{
+    justify-content: space-around;
+}
+.name{
+    margin-left: 3em;
+}
+ 
+.delete{
+    font-weight: 300;
+    margin-left: 2em;
+}
+.total{
+    max-width: 50%;
+    min-width: 500px;
+    margin: auto;
+    box-shadow: 0px 5px 10px rgba(68, 68, 68, 0.53) ;
+    background-color: #678d9c;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total h2{
+    margin: 0 5px;
+}
+
